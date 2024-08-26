@@ -90,6 +90,27 @@
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+.ha-1{
+    font-size: 45px;
+}.ha-2{
+    font-size: 85px;
+    margin-top: -20px;
+    color: white;
+}
+.li{
+    font-size: 14px; margin-top: 10px;
+}
+.p{
+    font-size: 18px; color: rgb(218, 216, 216);
+}
+.p1{
+    font-size: 20px; color: gray;
+}
+.p2{
+    font-size: 13px;
+}.p3{
+    font-size: 13px;
+}
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
