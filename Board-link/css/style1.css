@@ -496,7 +496,9 @@
         width: 100%; 
         height: auto;
     }
-       
+    .service{
+        background-color: #eee;
+    }
  
 .cards-1{
     width: 100%;
