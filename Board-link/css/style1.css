@@ -228,7 +228,7 @@
     border-radius: 100%;
 }
 .man-3{
-    background-image: url(../images/video-one-img.jpg);
+    background-image: url(../img/video-one-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* opacity: 0.5;     */
@@ -265,7 +265,93 @@
     font-size: 20px;
 }
     
+.cards-1{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+}
+.cards-2{
+    width: 32%;
+    
+}
+.m1{
+    border-right: 3px  dotted ; 
+    
+}
+.cardman{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardman1{
+    width: 48%; 
+    border-radius: 5px;
+}
+.img-man{
+    margin-left:-125px ;
+}
+.para{
+    color: black;
+    font-size: 16px;
+}
+.att{
+    width: 60%;
+}
+.para1{
+    font-size: 13px;
+    width: 80%;
+}
+.para2{
+    font-size: 13px;
+    width: 90%;
+}
+.para3{
+    font-size: 10px;
+    width: 100%;
+}
+.atprice{
+    color: black;
+}
+.atprice-1 h1{
+    font-size: 60px;
+    color: rgb(59, 59, 248);
+}
+
+.atprice b{
+    font-size: 20px;
+    color: black;
+}
+.img-att{
+    width: 25%;
+}
+.img-att-1{
+    width: 100%; 
+    height: 700px;
+}
 @media screen and (max-width:1200px) {
+    .att{
+        width: 70%;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    
+    .atprice b{
+        font-size: 20px;
+        color: black;
+    }
+    .para{
+        color: black;
+        font-size: 13px;
+    }
     .img{
         width: 17%;
     }
@@ -384,6 +470,44 @@
 }
 
 @media screen and (max-width:992px) {
+    .att{
+        width: 90%;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    
+    .atprice b{
+        font-size: 20px;
+        color: black;
+    }
+    .img-att{
+        width: 30%;
+    }
+    .img-att-1{
+        width: 100%; 
+        height: auto;
+    }
+       
+ 
+.cards-1{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards-2{
+    width: 100%;
+    
+}
     .img{
         width: 18%;
     }  
@@ -598,6 +722,42 @@
 }
 
 @media screen and (max-width:768px) {
+    .att{
+        width: 100%;
+    }
+    .num{
+        width: 350px;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    
+    .atprice b{
+        font-size: 20px;
+        color: black;
+    }
+    .cardman{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cardman1{
+        width: 100%; 
+        border-radius: 5px;
+    }
+    .m1{
+        border-right: 0px  dotted ; 
+        border-bottom: 3px  dotted ; 
+    }
     .img{
         width: 170px;
     }
@@ -820,6 +980,40 @@
 }
 
 @media screen and (max-width:576px) {
+    .att{
+        width: 100%;
+    }
+    .num{
+        width: 350px;
+        font-size: 15px;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    .img-att{
+        width: 50%;
+
+    }
+.cards-1{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards-2{
+    margin: auto;
+    width: 90%;
+    
+}
+
     .img{
         width: 100px;
     }
@@ -1030,6 +1224,26 @@
     }
 }
 @media screen and (max-width:480px) {
+    .att{
+        width: 100%;
+    }
+    .num{
+        width: 300px;
+    }
+    .para1{
+        font-size: 13px;
+        width: 80%;
+    }
+    .atprice{
+        color: black;
+    }
+    .atprice-1 h1{
+        font-size: 60px;
+        color: rgb(59, 59, 248);
+    }
+    .img-att{
+        width: 60%;
+    }
     .img{
         width: 100px;
     }
